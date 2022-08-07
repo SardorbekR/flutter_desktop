@@ -4,7 +4,6 @@
 To compile a desktop application, you must build it on the targeted platform: build a Windows application on Windows, a macOS application on macOS, and a Linux application on Linux.
 
 To create a Flutter application with desktop support, you need the following software:
-Flutter should be installed in your computer in order to be able to run or create Flutter Dekstop application.
 - Flutter SDK. See the <a href = "https://docs.flutter.dev/get-started/install"> Flutter SDK </a>installation instructions.
 - Optional: An IDE that supports Flutter. See <a href = "https://docs.flutter.dev/get-started/editor">setting up an editor</a> for more details.
 
@@ -17,13 +16,13 @@ Flutter should be installed in your computer in order to be able to run or creat
 - Check if everything is set-up correctly as described <a href="https://docs.flutter.dev/development/platform-integration/desktop#set-up"> here </a>
 
 ## Creating Flutter project with Desktop support
-When you creating a new Flutter project you can indicate which platforms you want to support, by default chosen only Android and iOS, but you can enable all 6 platforms
+When you create a new Flutter project you can indicate which platforms you want to support, by default chosen only Android and iOS, but you can enable all 6 platforms
 
 <img width="712" alt="Screen Shot 2022-08-07 at 2 14 30 PM" src="https://user-images.githubusercontent.com/30071369/183283933-b41b96de-40c5-4888-bcca-59576a73d9bc.png">
 
-After creating project, you shuold run following commands in a terminal from the root project directory:
+After creating a project, you should run the following commands in a terminal from the root project directory:
 - `flutter pub get` (This command gets all the dependencies listed in the pubspec.yaml file in the current working directory, as well as their transitive dependencies)
-- Run the Desktop application using command: `flutter run`
+- Run the Desktop application using the command: `flutter run`
 
 ## Enabling Desktop support for existing project
 To add desktop support to an existing Flutter project, run the following command in a terminal from the root project directory:
